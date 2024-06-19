@@ -1,0 +1,57 @@
+.env
+
+deps.lock
+.idea
+# OS X
+.DS_Store
+# Thumbnails
+._*
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+.buildpath
+.project
+.settings
+*/*.bak
+.vagrant
+/default
+.php_cs.cache
+
+/htdocs/cache
+/tmp/
+node_modules
+/tests/simpletest
+/tests/unitaires/config.php
+
+/vendor/
+
+/htdocs/assets
+/htdocs/templates/site/css/styles.css
+js_dist
+# uploads
+/htdocs/uploads
+
+/build/
+/phpunit.xml
+/var/*
+!/var/cache
+/var/cache/*
+!var/cache/.gitkeep
+!/var/logs
+/var/logs/*
+!var/logs/.gitkeep
+!/var/sessions
+/var/sessions/*
+!var/sessions/.gitkeep
+/htdocs/bundles/
+/bin/atoum
+/bin/behat
+/bin/generate_vcards
+/bin/phinx
+/bin/php-cs-fixer
+/bin/simple-phpunit
+/bin/vobject
+/compose.override.yml
+/composer.phar
+/data
+

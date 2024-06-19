@@ -1,0 +1,16 @@
+parameters:
+    phpVersion: 70400 # PHP 7.4
+    level: 1
+    paths:
+        - sources
+    scanFiles:
+        - dependencies/magpierss/extlib/Snoopy.class.inc
+        - dependencies/magpierss/rss_cache.inc
+        - dependencies/magpierss/rss_fetch.inc
+        - dependencies/magpierss/rss_parse.inc
+        - dependencies/magpierss/rss_utils.inc
+    excludePaths:
+        analyse:
+            # Ces fichiers utilisent des alias de classes
+            - sources/AppBundle/Twig/AssetsExtension.php
+            - sources/AppBundle/Twig/TwigExtension.php
